@@ -38,3 +38,18 @@ while(i<8){
     console.log("The value of i is " + i)
     i++
 }
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////PART FOUR///////////////////////////////////////////////
+// CREATING A FUNCTION TO CHANGE THE COLOR OF A TEXT TO BLUE AT A BUTTON'S CLICK
+colorchanger = function(){
+    let msg1 = document.getElementById("msg1")
+    msg1.style.color = "blue"
+}
+
+// CREATING A FUNCTIN TO GENERATE NEW CONTENT
+contentcreator = function(){
+    let newcont = document.createElement("header")
+    newcont.textContent = "Surprise! I am the new content you created!!"
+    newcont.style.fontSize = "x-large"
+    document.body.appendChild(newcont)
+}
