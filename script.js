@@ -38,6 +38,13 @@ while(i<8){
     console.log("The value of i is " + i)
     i++
 }
+//USING A FOR LOOP TO DISPLAY ITERATION
+const fruits = ["apple", "banana", "cherry", "date"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
 //////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////PART FOUR///////////////////////////////////////////////
 // CREATING A FUNCTION TO CHANGE THE COLOR OF A TEXT TO BLUE AT A BUTTON'S CLICK
@@ -46,7 +53,7 @@ colorchanger = function(){
     msg1.style.color = "blue"
 }
 
-// CREATING A FUNCTIN TO GENERATE NEW CONTENT
+// CREATING A FUNCTION TO GENERATE NEW CONTENT
 contentcreator = function(){
     let newcont = document.createElement("header")
     newcont.textContent = "Surprise! I am the new content you created!!"
