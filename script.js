@@ -14,3 +14,27 @@ funct1 = function(){
 }
 /////////////////////////////////////////////////////////////////////////////////////////////
 // ////////////////////////////////PART TWO/////////////////////////////////////////////////
+// CREATING A FUNCTION TAKING IN TWO INPUTS AND PROVIDING THE SUM,DIFFERENCE,QUOTIENT AND PRODUCT
+funct2 = function(a,b){
+    let sum = a + b;
+    let difference = a - b;
+    let product = a * b;
+    let quotient;
+    if(b !== 0){
+        quotient = a/b
+    }
+    else{
+        quotient = "Division by zero not possible."
+    }
+    return "Your sum is " + sum + ", difference is " + difference + ",product is " + product + " and quotient is " + quotient
+}
+// Displays an alert message with the values already calculated when the page loads
+alert(funct2(89,34));
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////PART THREE////////////////////////////////////////////
+// USING A WHILE LOOP TO DISPLAY REPETITION ON THE CONSOLE
+let i = 1
+while(i<8){
+    console.log("The value of i is " + i)
+    i++
+}
